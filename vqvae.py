@@ -3,7 +3,6 @@ from torch import nn
 from torch.nn import functional as F
 
 from vector_quantize_pytorch import VectorQuantize, FSQ, ResidualVQ
-from wavenet_model import WaveNetModel
 
 # Borrowed from https://github.com/rosinality/vq-vae-2-pytorch/blob/master/vqvae.py
 
